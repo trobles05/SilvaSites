@@ -7,7 +7,7 @@ module.exports = {
         fundo : 'rgb(32, 30, 67)', // Cor de fundo
         font : 'rgb(80,140,155)',  // Cor da fonte 
         buttonfont: 'rgb(32, 30, 67)',
-         buttonFundo: 'rgb(80,140,155)',
+        buttonFundo: 'rgb(80,140,155)',
       },
       fontFamily: {
         title: "var(--font-title)",       // Peralta
