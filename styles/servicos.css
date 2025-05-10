@@ -1,0 +1,47 @@
+.servicos-section {
+  padding: 4rem 2rem;
+  background-color: #201E43;
+  color: #EEEEEE;
+  text-align: center;
+}
+
+.servicos-section h2 {
+  font-family: 'Peralta', serif;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  color: #EEEEEE;
+}
+
+.servicos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.servico-card {
+  background-color: #134B70;
+  border-radius: 1rem;
+  padding: 2rem;
+  max-width: 300px;
+  flex: 1 1 250px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.servico-card:hover {
+  transform: translateY(-5px);
+}
+
+.servico-card h3 {
+  font-family: 'Atma', cursive;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #EEEEEE;
+}
+
+.servico-card p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.95rem;
+  color: #EEEEEE;
+}
