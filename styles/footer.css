@@ -60,3 +60,59 @@
     width: 75px; /* Define a largura */
     height: auto; /* Mantém a proporção */
   }
+
+  .contato-section {
+  background-color: #201E43;
+  color: #EEEEEE;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.container-contato {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contato-section h2 {
+  font-family: 'Peralta', serif;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.contato-section p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.form-contato input,
+.form-contato textarea {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+.form-contato textarea {
+  resize: vertical;
+}
+
+.form-contato button {
+  background-color: #134B70;
+  color: #EEEEEE;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 0.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-contato button:hover {
+  background-color: #508C9B;
+}
